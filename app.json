@@ -29,10 +29,6 @@
       "description": "should be an integer. ID of owner of bot",
       "value": ""
     },
-    "UPLOAD_AS_DOC": {
-      "description": "True/False. If true all files will be uploaded as documents. Default is False.",
-      "required": false
-    },
     "CHUNK_SIZE": {
       "description": "should be an integer",
       "value": "128",
@@ -48,52 +44,8 @@
       "value": "15",
       "required": false
     },
-    "MAX_TIME_TO_WAIT_FOR_TORRENTS_TO_START": {
-      "description": "should be an integer. Number of seconds to wait before cancelling a torrent.",
-      "required": false
-    },
-    "FINISHED_PROGRESS_STR": {
-      "description": "should be a single character.",
-      "required": false
-    },
-    "UN_FINISHED_PROGRESS_STR": {
-      "description": "should be a single character.",
-      "required": false
-    },
-    "TG_OFFENSIVE_API": {
-      "description": "should be an URL accepting the FormParams {i}, {m}, and {t}",
-      "required": false
-    },
-    "LEECH_COMMAND": {
-      "description": "Enter your custom leech command like /leech@urgroupname and so on. Default is /leech",
-      "required": false
-    },
     "INDEX_LINK": {
       "description": "Enter your index link:",
-      "required": false
-    },
-    "GLEECH_COMMAND": {
-      "description": "Enter your custom gleech command like /gleech1@urgroupname and so on. Default is /gleech",
-      "required": false
-    },
-    "TELEGRAM_LEECH_COMMAND_G": {
-      "description": "Enter your custom tleech command like /tleech1@urgroupname and so on. Default is /tleech",
-      "required": false
-    },
-    "YTDL_COMMAND": {
-      "description": "Enter your custom ytdl command like ytdl1@urgroupname and so on. Default is /ytdl.",
-      "required": false
-    },
-    "PYTDL_COMMAND_G": {
-      "description": "Enter your custom pytdl command like pytdl1@urgroupname and so on. Default is /pytdl.",
-      "required": false
-    },
-    "CANCEL_COMMAND_G": {
-      "description": "Enter your custom cancel command like cancel@urgroupname and so on. Default is /cancel.",
-      "required": false
-    },
-    "GET_SIZE_G": {
-      "description": "Enter your custom getsize command like getsize@urgroupname and so on. Default is /getsize.",
       "required": false
     },
     "RCLONE_CONFIG": {
@@ -102,10 +54,6 @@
     },
     "DESTINATION_FOLDER": {
       "description": "Enter your Cloud folder NAME(not ID😅) in which you want to upload/store your files.",
-      "required": false
-    },
-    "CUSTOM_FILE_NAME": {
-      "description": "fill with name u want to prefix the file name like ur channel username🙊, keep empty for do nothing, but add to ur config vars even without input.",
       "required": false
     }
   },
